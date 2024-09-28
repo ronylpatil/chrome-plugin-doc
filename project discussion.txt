@@ -1,0 +1,14 @@
+Challenges in project
+1- we can use youtube api to fetch comments of any utube video but it would be unlabeled either we can manually label or AWS has one service called mechanical turk joki crowd sourcing ki help se label kr sklte he but yha cost envolved he. Either use LLM or predefined models to do labeling but its challenging because api hit krna or sari cheeze khud se setup krna kafi challenging he. Huggingface k models use kr skte he.
+
+2- we will use redit ka data which is already labelled, it has 37k comments labelled. but in real world agr youtube pr sentiment analysis kr rhe he to youtube ka hi data hona nahi to distribution me difference milega. Redit k data or youtube k data k dist me difference rahega.
+
+- ek or challenge ye hoga ki "lack of general kind of dataset" matlab utube pr different types k channel he jese educatinal, sports, political, comedy,... ab problem ye he ki agr hum apne training data me har type k comments add nahi karenge to model ki performance vahi gdbda jayegi. esliye har domain ko cater krna kafi difficult he.
+
+- Now the language is evolving alot due to which kisi word ka meaning kuch or he but but uska use kisi different meaning k liye krte he. GenZ generation specially. This is also one challenge
+
+- privacy and data compliance - I am building something then I am answerable for that. like me kha se data la rha hu or privacy ka dhyan rakhna pdega. jese india me abhi itna kuch restrictions nhi he but EU me next level regularizations he.
+
+- latency would be next biggest concern, like yha asynchronous programming use krni pdegi kyuki kafi jyada task he
+
+- company has alot of inertia
